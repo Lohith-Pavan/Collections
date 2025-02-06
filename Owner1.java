@@ -9,6 +9,7 @@ public class Owner1 {
 		this.order = new TreeMap<>();
 	}
 	void menu() {
+		System.out.println("---Menu---");
 		menu.put("Idli",30.00);
 		menu.put("Puri",50.00);
 		menu.put("Bonda",30.00);
